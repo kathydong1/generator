@@ -1,17 +1,4 @@
-Generator 函数的语法
-简介
-next 方法的参数
-for...of 循环
-Generator.prototype.throw()
-Generator.prototype.return()
-next()、throw()、return() 的共同点
-yield* 表达式
-作为对象属性的 Generator 函数
-Generator 函数的this
-含义
-应用
-简介
-基本概念
+
 Generator 函数是 ES6 提供的一种异步编程解决方案，语法行为与传统函数完全不同。本章详细介绍 Generator 函数的语法和 API，它的异步编程应用请看《Generator 函数的异步应用》一章。
 
 Generator 函数有多种理解角度。语法上，首先可以把它理解成，Generator 函数是一个状态机，封装了多个内部状态。
